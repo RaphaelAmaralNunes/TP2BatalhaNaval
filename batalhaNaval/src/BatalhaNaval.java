@@ -2,11 +2,11 @@ public class BatalhaNaval {
     
     public static void main(String[] args) {
         
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10000; i++) {
             System.out.println(i + ": ");
-            char[][] tabuleiro = Utilitarios.prepararTabuleiro();
+            char[][] tabuleiro = Tabuleiro.prepararTabuleiro();
             char[][] matrizB = new char[10][10];
-            Utilitarios.mostarTabuleiro(tabuleiro);
+            Tabuleiro.mostarTabuleiro(tabuleiro);
             
             System.out.println();
             System.out.println();
