@@ -1,12 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author rapha
- */
 public class BatalhaNaval {
     
+    public static void main(String[] args) {
+        
+        for (int i = 0; i < 100; i++) {
+            System.out.println(i + ": ");
+            char[][] tabuleiro = Utilitarios.prepararTabuleiro();
+            char[][] matrizB = new char[10][10];
+            Utilitarios.mostarTabuleiro(tabuleiro);
+            
+            System.out.println();
+            System.out.println();
+        }
+    }
 }
