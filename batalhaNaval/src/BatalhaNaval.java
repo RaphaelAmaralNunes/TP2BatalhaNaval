@@ -6,7 +6,7 @@ public class BatalhaNaval {
             System.out.println(i + ": ");
             char[][] tabuleiro = Tabuleiro.prepararTabuleiro();
             char[][] matrizB = new char[10][10];
-            Tabuleiro.mostarTabuleiro(tabuleiro);
+            Tabuleiro.mostrarTabuleiro(tabuleiro);
             
             System.out.println();
             System.out.println();
