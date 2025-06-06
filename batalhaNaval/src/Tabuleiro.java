@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class Tabuleiro {
     
-    final static char VAZIO = '6';
+    final static char VAZIO = '0';
 
     public static char[][] prepararTabuleiro() {
         Random gerador = new Random();
@@ -42,7 +42,6 @@ public class Tabuleiro {
         }
 
         //Preenchimento dos Encouracados;
-        //MAX = 7;
         for (int i = 0; i < 2; i++) {
             espacoValido = false;
             while (espacoValido == false) {
@@ -236,7 +235,7 @@ public class Tabuleiro {
         return indiceValido;
     }
 
-    public static void mostarTabuleiro(char[][] tabuleiro) {
+    public static void mostrarTabuleiro(char[][] tabuleiro) {
         System.out.print("  ");
         for (int i = 0; i < 10; i++) {
             System.out.print(i + " ");
